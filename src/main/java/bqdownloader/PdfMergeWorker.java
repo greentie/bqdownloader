@@ -83,7 +83,7 @@ public class PdfMergeWorker {
 					} catch (IOException e) {
 						System.out.println(e);
 						System.out.println(file);
-						deleteMergeTemp = true;
+						deleteMergeTemp = false;
 					}
 				}
 				document.close();
